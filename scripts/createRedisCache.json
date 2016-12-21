@@ -1,0 +1,3 @@
+#!/bin/sh
+rg=demo-eng1
+azure group deployment create --template-file ../templates/az-rediscache.json $rg

@@ -1,0 +1,41 @@
+{
+  "id": "/subscriptions/cc00de25-66a8-442a-81fb-965f9266ebbd/resourceGroups/demo-eng1/providers/Microsoft.KeyVault/vaults/ingpoland",
+  "name": "ingpoland",
+  "type": "Microsoft.KeyVault/vaults",
+  "location": "westeurope",
+  "tags": {},
+  "properties": {
+    "sku": {
+      "family": "A",
+      "name": "Standard"
+    },
+    "tenantId": "cd5de0f4-9a4f-4cc5-8e2c-7d12937b18b2",
+    "accessPolicies": [
+      {
+        "tenantId": "cd5de0f4-9a4f-4cc5-8e2c-7d12937b18b2",
+        "objectId": "18f51b1f-9bbc-4707-8e5c-96fc5086cbe4",
+        "permissions": {
+          "keys": [
+            "get",
+            "create",
+            "delete",
+            "list",
+            "update",
+            "import",
+            "backup",
+            "restore"
+          ],
+          "secrets": [
+            "all"
+          ],
+          "certificates": [
+            "all"
+          ]
+        }
+      }
+    ],
+    "enabledForDeployment": false,
+    "vaultUri": "https://ingpoland.vault.azure.net"
+  }
+}
+
