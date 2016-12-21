@@ -3,7 +3,7 @@
 if [ "$#" -ne 1 ]
 then
   echo "please provide the following parameters: "
-  echo "start | stop"
+  echo "start | stop | deallocate"
   exit 1
 fi
 
